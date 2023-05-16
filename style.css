@@ -45,7 +45,10 @@ body {
     justify-content: space-between;
     background-color:  #1F2937;
     gap: 16px;
-    padding: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
 
 }
 
@@ -103,9 +106,10 @@ body {
     border-color: #3B82F6;
 }
 .body .cards .card img{
-    border: 3px solid #3B82F6;
+    border: 3.5px solid #3B82F6;
     border-radius: 16px;
 }
 .body .cards .card p{
     color: #4b4b4b;
 }
+
