@@ -1,1 +1,40 @@
- 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 0px;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #202938;
+    padding: 10px;
+    
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+.header .right ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+    font-size: 18px;
+    list-style-type: none;
+
+}
+.header .logo{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 1000;
+}
+ .header a{
+    color: #cccfd5;
+    text-decoration: none;
+}
+
+
