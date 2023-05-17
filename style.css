@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: aliceblue;
     margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
 } 
 
 
@@ -128,8 +130,6 @@ body {
 .body .quote p {
     margin: 0px;
     font-size: 22px;
-    font-style: italic;
-    font-weight: lighter;
 }
 .body .author {
     display: flex;
