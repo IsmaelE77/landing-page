@@ -115,14 +115,21 @@ body {
 }
 
 .body .quote {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
     background-color: #E5E7EB;
-    padding: 24px;
-    padding-left: 200px;
-    padding-right: 200px ;
-    font-size: 36px;
+    padding: 100px;
+    padding-left: 220px;
+    padding-right: 220px ;
+
 }
 .body .quote p {
     margin: 0px;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
 }
 .body .author {
     display: flex;
